@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightGrey"
+    android:orientation="vertical"
+    android:weightSum="30"
+   >
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:background="@color/PeachPuff"
+        android:hint="Enter Title"
+        android:textColorHint="@color/darkgrey"
+        android:inputType="text"
+        android:layout_weight="1"
+        android:textColor="@color/IndianRed"
+        android:textSize="35dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/purple_200"
+        android:hint="Description"
+        android:textColor="@color/black"
+        android:gravity="start"
+        android:layout_weight="28"
+        android:textColorHint="@color/LightGrey"
+        android:textSize="26dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:background="@color/DarkCyan"
+        android:text="Submit"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

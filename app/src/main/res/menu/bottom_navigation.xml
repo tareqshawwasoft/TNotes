@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_note_24"
+        android:title="Notes"/>
+
+    <item
+        android:id="@+id/nav_favorites"
+        android:icon="@drawable/outline_access_alarms_24"
+        android:title="Alarms"/>
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/outline_timer_24"
+        android:title="Timers"/>
+
+</menu>
